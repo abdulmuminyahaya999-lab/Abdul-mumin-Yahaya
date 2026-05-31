@@ -1,0 +1,6 @@
+{
+  "name": "Reality-Best",
+  "description": "Ghana's premier, fast and reliable mobile-first airtime and data bundle reseller platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

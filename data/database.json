@@ -1,0 +1,195 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "email": "admin@realitybest.com",
+      "fullName": "Reality-Best Admin Manager",
+      "phone": "0241234567",
+      "walletBalance": 2500,
+      "role": "admin",
+      "createdAt": "2026-05-31T07:30:32.071Z",
+      "password": "admin"
+    },
+    {
+      "id": "user-0",
+      "email": "abdulmuminyahaya999@gmail.com",
+      "fullName": "Abdul Yahaya",
+      "phone": "0544317243",
+      "walletBalance": 108,
+      "role": "user",
+      "createdAt": "2026-05-31T07:30:32.071Z",
+      "password": "user123"
+    },
+    {
+      "id": "user-1",
+      "email": "demo@realitybest.com",
+      "fullName": "Kwame Mensah",
+      "phone": "0544521401",
+      "walletBalance": 100,
+      "role": "user",
+      "createdAt": "2026-05-31T07:30:32.071Z",
+      "password": "demo"
+    }
+  ],
+  "packages": [
+    {
+      "id": "pkg-1",
+      "network": "MTN",
+      "name": "MTN Midnight Surf",
+      "dataSize": "5.5 GB",
+      "price": 12,
+      "duration": "Midnight Only (12AM - 5AM)",
+      "description": "High-speed internet for midnight surfers. Auto-activated.",
+      "isActive": true
+    },
+    {
+      "id": "pkg-2",
+      "network": "MTN",
+      "name": "AFA registration Partner Bundle",
+      "dataSize": "AFA Special (Unlimited Social + Calls + 5GB)",
+      "price": 30,
+      "duration": "30 Days",
+      "description": "Register with AFA. Massive data and custom voice bundle.",
+      "isActive": true
+    },
+    {
+      "id": "pkg-3",
+      "network": "MTN",
+      "name": "MTN Heavy Gamer Bundle",
+      "dataSize": "25 GB",
+      "price": 90,
+      "duration": "30 Days",
+      "description": "MTN Non-expiry ultra bundle tailored for massive downloading & gaming.",
+      "isActive": true
+    },
+    {
+      "id": "pkg-4",
+      "network": "AT",
+      "name": "AT iShare Personal",
+      "dataSize": "6.5 GB",
+      "price": 18,
+      "duration": "30 Days",
+      "description": "Affordable AirtelTigo iShare internet sharing pack.",
+      "isActive": true
+    },
+    {
+      "id": "pkg-5",
+      "network": "AT",
+      "name": "AT iShare Mega Pack",
+      "dataSize": "15 GB",
+      "price": 38,
+      "duration": "30 Days",
+      "description": "Bulk internet bundle on AirtelTigo network for multiple devices.",
+      "isActive": true
+    },
+    {
+      "id": "pkg-6",
+      "network": "Telecel",
+      "name": "Telecel Bossu Premium",
+      "dataSize": "12 GB + 100 Mins Voice",
+      "price": 45,
+      "duration": "30 Days",
+      "description": "Telecel Bossu bundle. Instant voice allocations and robust data data.",
+      "isActive": true
+    },
+    {
+      "id": "pkg-7",
+      "network": "Telecel",
+      "name": "Telecel Super Hour Rush",
+      "dataSize": "2 GB",
+      "price": 6,
+      "duration": "1 Hour",
+      "description": "Ultra fast hourly booster for streaming and urgent tasks.",
+      "isActive": true
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-1",
+      "userId": "user-1",
+      "userEmail": "demo@realitybest.com",
+      "userPhone": "0544521401",
+      "date": "2026-05-31T05:30:32.071Z",
+      "network": "MTN",
+      "serviceName": "AFA registration Partner Bundle",
+      "serviceType": "data",
+      "amount": 30,
+      "recipientPhone": "0544521401",
+      "status": "Success",
+      "referenceId": "RB-0544521401-AFA30",
+      "createdAt": "2026-05-31T05:30:32.071Z"
+    },
+    {
+      "id": "tx-2",
+      "userId": "user-1",
+      "userEmail": "demo@realitybest.com",
+      "userPhone": "0544521401",
+      "date": "2026-05-30T07:30:32.071Z",
+      "network": "Telecel",
+      "serviceName": "Telecel Super Hour Rush",
+      "serviceType": "data",
+      "amount": 6,
+      "recipientPhone": "0209988771",
+      "status": "Success",
+      "referenceId": "RB-0209988771-SHR6",
+      "createdAt": "2026-05-30T07:30:32.071Z"
+    },
+    {
+      "id": "tx-1780213315607",
+      "userId": "user-0",
+      "userEmail": "abdulmuminyahaya999@gmail.com",
+      "userPhone": "0559988776",
+      "date": "2026-05-31T07:41:55.607Z",
+      "network": "MTN",
+      "serviceName": "AFA registration Partner Bundle",
+      "serviceType": "data",
+      "amount": 30,
+      "recipientPhone": "0544317243",
+      "status": "Success",
+      "referenceId": "RB-0544317243-DB978",
+      "createdAt": "2026-05-31T07:41:55.607Z"
+    },
+    {
+      "id": "tx-1780213341749",
+      "userId": "user-0",
+      "userEmail": "abdulmuminyahaya999@gmail.com",
+      "userPhone": "0559988776",
+      "date": "2026-05-31T07:42:21.749Z",
+      "network": "MTN",
+      "serviceName": "MTN Midnight Surf",
+      "serviceType": "data",
+      "amount": 12,
+      "recipientPhone": "0544317243",
+      "status": "Success",
+      "referenceId": "RB-0544317243-DB863",
+      "createdAt": "2026-05-31T07:42:21.749Z"
+    }
+  ],
+  "deposits": [
+    {
+      "id": "dep-1",
+      "userId": "user-1",
+      "userEmail": "demo@realitybest.com",
+      "userPhone": "0544521401",
+      "amount": 100,
+      "status": "Approved",
+      "paymentMethod": "MTN MoMo",
+      "transactionId": "15409848529",
+      "referenceId": "RB-DEP-10023",
+      "createdAt": "2026-05-30T01:30:32.071Z",
+      "approvedAt": "2026-05-30T02:30:32.071Z"
+    },
+    {
+      "id": "dep-2",
+      "userId": "user-1",
+      "userEmail": "demo@realitybest.com",
+      "userPhone": "0544521401",
+      "amount": 50,
+      "status": "Pending",
+      "paymentMethod": "MTN MoMo",
+      "transactionId": "1549929841",
+      "referenceId": "RB-DEP-14981",
+      "createdAt": "2026-05-31T07:30:32.071Z"
+    }
+  ]
+}
